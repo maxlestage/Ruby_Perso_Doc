@@ -1,0 +1,16 @@
+#                                                       Ruby 
+
+
+
+
+
+
+
+
+#      Doc Ruby FR      https://ruby-doc.org/docs/beginner-fr/xhtml/
+
+
+# Explication de la ligne ci-dessous :
+
+          Le Type#saMethode:
+            Array#each:

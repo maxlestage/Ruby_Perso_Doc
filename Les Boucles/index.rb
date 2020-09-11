@@ -48,6 +48,10 @@ end
 
 
 for num in 1...10
-    puts num
-next if num == 3    
+    # if (si) le numéro est égale à 3, je fais next. 
+    # next permet de dire "Peut importe ce qui arrive, je saute"
+    next if num == 3    
+        puts num
 end
+
+# Ainsi dans notre affiche du terminal le 3 sera échappé, '1 2 4 5 6 7 8 9' , pas 10 car nous avons les ' ... '

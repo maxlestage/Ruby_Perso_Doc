@@ -1,0 +1,2 @@
+irb --simple-prompt                 // Il ouvre un terminal Ruby dédié. 
+
