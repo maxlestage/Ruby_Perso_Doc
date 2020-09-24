@@ -4,7 +4,7 @@
 
 
 
-# On commence par la boucle WHILE 
+# On commence par la boucle WHILE ≠ tant que
 
 
 # La boucle while s'écrit ainsi: while suivi de sa <condittion>
