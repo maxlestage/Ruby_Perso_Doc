@@ -133,15 +133,18 @@ end
 
 # Eh bien comme en html classique: 
 
-<p> Salut comment ça va ? </p>
+#           <p> Salut comment ça va ? </p>
 # Ici une balise <p>
 
+
+### Le code Ruby dans le html.erb: 
+
 # On peut égalment écrire du code Ruby sous la syntaxe suivante :
-<%     %>
+#            <%     %>
 
 # et si on souhaite afficher du code ruby, nous utiliserons cette syntaxe :
 
-<%=    %>
+#            <%=    %>
 
 
 
