@@ -52,7 +52,7 @@ end
 name = gets.chomp 
 
 # Ici plus de mystère, affiche donc la méthode bonjour(name)
-# ici litéralement, bonjour la valeur saisie par l'utilisateur. 
+# ici litéralement, bonjour (la valeur saisie par l'utilisateur). 
 puts bonjour(name)
 
 ###########################################################################################################################################

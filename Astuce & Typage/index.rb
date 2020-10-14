@@ -31,3 +31,47 @@ end
 
 # Ici nous pouvons noter que le signe ":" correspond à un "else", il se traduira par un "sinon". 
 
+######################################################################################################################## 
+
+a = false
+b = "Salut!"
+
+puts a||b 
+
+#=> ici il affichera "a" "ou ||" "b"
+# si "a" est faux alors il affichera "b"
+# "a" étant une variable définit comme un bouléen false il affichera "b"
+
+a = "false"
+b = "Salut!"
+
+puts a||b 
+
+
+
+######################################################################################################################## 
+
+# faire un assignement avec un "ou" "||"
+
+# On créer une variable "a" 
+
+a = false
+a ||= "valeur par défaut"
+puts a
+
+#=> a nous retourne alors "valeur par défaut"
+
+
+a = "chien"
+a ||= "valeur par défaut"
+puts a
+
+#=> a nous retourne alors "chien"
+
+##### Explication :
+# Si a n'est pas déclaré avant, il nous affichera sa valeur. 
+# Si a est déclaré précédement c'est la valeur par défaut qui sera affiché. 
+# Le raisonnment = si "a" est déjà définit, je ne fais pas ça. 
+
+
+
