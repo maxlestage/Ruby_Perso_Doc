@@ -80,16 +80,20 @@
               #   # https://guides.rubyonrails.org/configuring.html#database-pooling
               #   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
               #   username: postgres
-              #   password: motdepass
+              #   password: 18081995Ml
 
               # development:
               #   <<: *default
               #   database: myapp_development
               #   host: ''
               #   port: 5432
-              #   password: motdepass
+              #   password: 18081995Ml
 
+####### On finit par la commande :
 
+# rake db:create 
+
+# Celle ci va s'occuper de créer la database et de faire la connexion. 
 
 
 ######## Les Routes :
