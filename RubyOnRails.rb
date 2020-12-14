@@ -80,14 +80,14 @@
               #   # https://guides.rubyonrails.org/configuring.html#database-pooling
               #   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
               #   username: postgres
-              #   password: 18081995Ml
+              #   password: -
 
               # development:
               #   <<: *default
               #   database: myapp_development
               #   host: ''
               #   port: 5432
-              #   password: 18081995Ml
+              #   password: -
 
 ####### On finit par la commande :
 
